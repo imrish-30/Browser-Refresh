@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Browser Refresh",
+  "version": "1.0",
+  "description": "A simple extension to clear browser history and caches.",
+  "permissions": [
+    "history",
+    "browsingData"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon2.png",
+      "48": "icon2.png",
+      "128": "icon2.png"
+    }
+  }
+}
